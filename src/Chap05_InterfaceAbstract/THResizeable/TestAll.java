@@ -14,7 +14,6 @@ public class TestAll {
         }
 
         System.out.println("--------After----------");
-
         for (Shape shape : shapes) {
             Resizeable resizeable = (Resizeable) shape;
             resizeable.resize(20);
