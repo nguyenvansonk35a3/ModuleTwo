@@ -1,8 +1,9 @@
 /**
- * sử dụng những đối tượng thuộc những lớp mà có triển khai interface Comparator
- * và phương thức compare() của nó, để phục phụ việc so sánh
+ * tạo một interface Resizeable với một phương thức void có tên resize(double percent).
+ * Phương thức này tăng kích thước các hình lên tỷ lệ phần trăm được cho bởi đối số đầu vào.
+ * Cho lớp Circle, Rectangle và Square triển khai phương thức này.
  */
-package Chap05_InterfaceAbstract.THComparator;
+package Chap05_InterfaceAbstract.THResizeable;
 
 public class Shape {
 

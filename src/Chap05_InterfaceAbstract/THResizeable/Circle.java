@@ -1,6 +1,6 @@
-package Chap05_InterfaceAbstract.THComparator;
+package Chap05_InterfaceAbstract.THResizeable;
 
-public class Circle extends Shape {
+public class Circle extends Shape implements Resizeable {
 
     private double radius = 1.0;
 
@@ -36,6 +36,12 @@ public class Circle extends Shape {
 
     @Override
     public String toString() {
-        return "Circle: radius = " + getRadius() + ", is subclass of:  " + super.toString();
+        return "Circle: radius = " + getRadius() + ", getArea = " + this.getArea() + ", is subclass of:  " + super.toString();
+    }
+
+    //resize kich thuoc
+    @Override
+    public void resize(double percent) {
+        this.radius += this.radius * percent / 100;
     }
 }
