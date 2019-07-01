@@ -8,7 +8,7 @@ public class TestCustomer {
 
         //tao Customer
         Customer customer = new Customer("07564", "Nguyen", "Son", "06/12/1995");
-        //them doa chi cho khach
+        //them dia chi cho khach
         customer.addAddress(address);
 
         //hien thi

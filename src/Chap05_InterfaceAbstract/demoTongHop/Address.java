@@ -26,7 +26,7 @@ public class Address {
         this.country = country;
     }
 
-    //show thong tin
+    //show thong tin dia chi
     public void AddressInfo() {
         System.out.println("Street: " + this.street + ", City: " + this.city
                 + ", Pot_Code: " + this.post_Code + ", Country: " + this.country);
